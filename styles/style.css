@@ -1,7 +1,14 @@
+body{
+
+}
 footer{
     display: flex;
 }
-
-img{
-    
+.boxLink{
+    text-align: center;
+    width: 25%;
+}
+.flores{
+    height:70% ;
+    width: 50%;
 }
