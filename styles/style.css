@@ -11,6 +11,7 @@ main {
     padding: 3%;
     display: flex;
     justify-content: space-between;
+    margin: 1%;
 }
 
 a {
@@ -22,6 +23,7 @@ a {
     color: rgba(140, 206, 237, 1);
     font-size: 250%;
     -webkit-text-stroke: 3px black;
+    transition: 0.5s;
 }
 
 .nav2 :hover {
@@ -29,6 +31,7 @@ a {
     color: rgba(96, 156, 235, 1);
     font-size: 250%;
     -webkit-text-stroke: 3px black;
+    transition: 0.5s;
 }
 
 .nav3 :hover {
@@ -36,6 +39,8 @@ a {
     color:  rgba(49, 128, 232, 1);
     font-size: 250%;
     -webkit-text-stroke: 3px black;
+    transition: 0.5s;
+
 }
 
 .nav4 :hover {
@@ -43,4 +48,6 @@ a {
     color: rgba(26, 107, 219, 1);
     font-size: 250%;
     -webkit-text-stroke: 3px black;
+    transition: 0.5s;
+
 }
