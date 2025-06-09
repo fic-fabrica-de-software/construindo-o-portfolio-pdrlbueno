@@ -1,11 +1,11 @@
-body {
+.bodyHome {
     padding: 0%;
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(0deg, rgba(13, 68, 140, 1) 6%, rgba(26, 107, 219, 1) 20%, rgba(49, 128, 232, 1) 33%, rgba(96, 156, 235, 1) 63%, rgba(112, 185, 221, 1) 84%, rgba(140, 206, 237, 1) 99%) no-repeat;
 }
 
-main {
+.bodyHome main {
     text-align: right;
     font-size: 300%;
     padding: 3%;
@@ -49,5 +49,49 @@ a {
     font-size: 250%;
     -webkit-text-stroke: 3px black;
     transition: 0.5s;
+
+}
+
+/* projetc */
+.projectsBody {
+     background-color:  rgba(26, 107, 219, 1);
+}
+
+.projectsBody main{
+    text-align: center;
+}
+
+.headerProjct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerProjct img{
+   height: 9%;
+   width: 9%;
+}
+
+.headerProjct a{
+margin: 1%;
+}
+.GitButton{
+    background-color: black;
+    color: white;
+    border-style:solid ;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 2px ;
+    padding: 2%;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+.GitButton:hover{
+    background-color: rgba(26, 107, 219, 1);
+    border-radius: 20px;
+    border-width: 3px ;
+    transition: 0.3s;
+    font-size:x-large;
 
 }
