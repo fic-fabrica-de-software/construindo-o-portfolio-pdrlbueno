@@ -36,7 +36,7 @@ a {
 
 .nav3 :hover {
     text-shadow: 15px 15px 30px blue;
-    color:  rgba(49, 128, 232, 1);
+    color: rgba(49, 128, 232, 1);
     font-size: 250%;
     -webkit-text-stroke: 3px black;
     transition: 0.5s;
@@ -54,44 +54,72 @@ a {
 
 /* projetc */
 .projectsBody {
-     background-color:  rgba(26, 107, 219, 1);
+    background-color: rgba(26, 107, 219, 1);
 }
 
-.projectsBody main{
-    text-align: center;
-}
-
-.headerProjct{
+.headerProjct {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.headerProjct img{
-   height: 9%;
-   width: 9%;
+.headerProjct img {
+    height: 9%;
+    width: 9%;
 }
 
-.headerProjct a{
-margin: 1%;
+.headerProjct a {
+    margin: 1%;
 }
-.GitButton{
+
+.GitButton {
     background-color: black;
     color: white;
-    border-style:solid ;
+    border-style: solid;
     border-color: white;
     border-radius: 8px;
-    border-width: 2px ;
+    border-width: 2px;
     padding: 2%;
     font-size: larger;
     transition: 0.3s;
 }
 
-.GitButton:hover{
+.GitButton:hover {
     background-color: rgba(26, 107, 219, 1);
     border-radius: 20px;
-    border-width: 3px ;
+    border-width: 3px;
     transition: 0.3s;
-    font-size:x-large;
+    font-size: x-large;
 
+}
+
+.projectsMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.BoxProjetosCod {
+    background-color: rgb(0, 174, 255);
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    text-align: center;
+    width: 50%;
+  
+
+}
+
+.BoxProjetosCod a {
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+.space{
+    width: 50%;
+}
+
+.aling{
+    display: flex;
+    margin: 5%;
 }
