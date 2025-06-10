@@ -123,3 +123,8 @@ a {
     display: flex;
     margin: 5%;
 }
+/* about me*/
+
+.AboutBody{
+    background-color: rgba(26, 107, 219, 1);
+}
