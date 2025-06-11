@@ -7,7 +7,7 @@
 }
 
 .bodyHome main {
-    text-align: right; 
+    text-align: right;
     font-size: 300%;
     padding: 3%;
     display: flex;
@@ -104,35 +104,59 @@ a {
     border-style: solid;
     border-color: black;
     border-radius: 2%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 50%;
-  
+
 
 }
 
 .BoxProjetosCod a {
     text-decoration: underline;
     font-weight: bold;
-    
+
 }
 
 .BoxProjetosCod p {
     text-align: justify;
     margin-left: 20%;
     margin-right: 20%;
-    
+
 }
 
-.space{
+.space {
     width: 50%;
 }
 
-.aling{
+.aling {
     display: flex;
     margin: 5%;
 }
+
 /* about me*/
 
-.AboutBody{
+.AboutBody {
     background-color: rgba(26, 107, 219, 1);
 }
+.AboutBody main{
+    padding: 5%;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+.contatos img{
+    height: 10%;
+    width: 10%;
+}
+
+.contatos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
