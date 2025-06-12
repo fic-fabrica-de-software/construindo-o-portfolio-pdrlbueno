@@ -139,8 +139,13 @@ a {
 .AboutBody {
     background-color: rgba(26, 107, 219, 1);
 }
-.AboutBody main{
-    padding: 5%;
+
+.AboutBody main {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .contatos {
@@ -148,15 +153,36 @@ a {
     align-items: center;
     text-decoration: underline;
 }
-.contatos img{
+
+.contatos img {
     height: 10%;
     width: 10%;
 }
 
-.contatos div{
+.contatos div {
     display: flex;
     justify-content: center;
     align-items: center;
+     font-size: medium;
 
 }
 
+.perfilIMG {
+    width: 20%;
+    height: 20%;
+}
+
+.perfil {
+    display: flex;
+    font-size: large;
+    justify-content: space-around;
+    margin-bottom: 1%;
+
+}
+
+.info {
+    width: 80%;
+    background-color: deepskyblue;
+    padding: 3%;
+    border-radius: 13px;
+}
