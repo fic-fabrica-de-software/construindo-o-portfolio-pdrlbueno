@@ -3,7 +3,7 @@
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(0deg, rgba(13, 68, 140, 1) 6%, rgba(26, 107, 219, 1) 20%, rgba(49, 128, 232, 1) 33%, rgba(96, 156, 235, 1) 63%, rgba(112, 185, 221, 1) 84%, rgba(140, 206, 237, 1) 99%) no-repeat;
-    padding-bottom: 7%;
+    padding-bottom: 9%;
 }
 
 .bodyHome main {
@@ -65,8 +65,8 @@ a {
 }
 
 .headerProjct img {
-    height: 9%;
-    width: 9%;
+    height: 5%;
+    width: 5%;
 }
 
 .headerProjct a {
@@ -80,7 +80,7 @@ a {
     border-color: white;
     border-radius: 8px;
     border-width: 2px;
-    padding: 2%;
+    padding: 1%;
     font-size: larger;
     transition: 0.3s;
 }
@@ -90,7 +90,7 @@ a {
     border-radius: 20px;
     border-width: 3px;
     transition: 0.3s;
-    font-size: x-large;
+    font-size: large;
 
 }
 
@@ -103,7 +103,7 @@ a {
     background-color: rgb(0, 174, 255);
     border-style: solid;
     border-color: black;
-    border-radius: 2%;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
