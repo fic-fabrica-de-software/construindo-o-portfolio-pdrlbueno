@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     margin: 1%;
+    
 }
 
 a {
@@ -51,6 +52,25 @@ a {
     -webkit-text-stroke: 3px black;
     transition: 0.5s;
 
+}
+
+.fish {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background: orange;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    animation: swim linear infinite;
+}
+
+@keyframes swim {
+    from {
+        transform: translateX(-100px) scaleX(1);
+    }
+
+    to {
+        transform: translateX(110vw) scaleX(1);
+    }
 }
 
 /* projetc */
@@ -163,7 +183,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-     font-size: medium;
+    font-size: medium;
 
 }
 
